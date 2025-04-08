@@ -1,0 +1,6 @@
+Model,Filename,Accuracy,ROC AUC,Best Parameters
+Logistic Regression,no_location_Logistic_Regression.pkl,0.8439,0.8679,{'classifier__C': 0.1}
+Random Forest,no_location_Random_Forest.pkl,0.8432,0.8697,"{'classifier__max_depth': 20, 'classifier__n_estimators': 200}"
+Gradient Boosting,no_location_Gradient_Boosting.pkl,0.8450,0.8695,"{'classifier__learning_rate': 0.1, 'classifier__n_estimators': 100}"
+Support Vector Machine,no_location_Support_Vector_Machine.pkl,0.8480,0.8469,"{'classifier__C': 10, 'classifier__gamma': 'auto'}"
+XGBoost,no_location_XGBoost.pkl,0.8447,0.8754,"{'classifier__learning_rate': 0.05, 'classifier__max_depth': 7, 'classifier__n_estimators': 200}"
